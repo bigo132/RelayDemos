@@ -1,0 +1,157 @@
+{
+  "name": "logo",
+  "version": 33,
+  "source-key": {
+    "type": "figma",
+    "file": "Yp08lsBtpY0wkb4K1Bz76B",
+    "node": "102:2507",
+    "version": "5336674077",
+    "component-id": "53f258f639b28ea8cd5c031f444e9a5af1235115"
+  },
+  "default": "Logo",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "group",
+        "id": "GateKey"
+      },
+      {
+        "type": "text",
+        "id": "Gate Key"
+      },
+      {
+        "type": "group",
+        "id": "vpn_key_black_24dp 1"
+      },
+      {
+        "type": "vector",
+        "id": "Vector"
+      },
+      {
+        "type": "vector",
+        "id": "Vector1"
+      }
+    ],
+    "modes": {
+      "Logo": {
+        "rules": [
+          {
+            "id": "top_level",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "children": [
+              "GateKey",
+              "Gate Key"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "GateKey",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 85.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 85.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "vpn_key_black_24dp 1"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Gate Key",
+            "font-weight": 500.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 180.0,
+              "saturation": 0.10714285714285714,
+              "value": 0.10980392156862745
+            },
+            "text-content": "Gate Key",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": 24.0,
+            "typeface": "DM Sans"
+          },
+          {
+            "id": "vpn_key_black_24dp 1",
+            "margin": {
+              "left": 18.352294921875,
+              "top": 13.8447265625,
+              "right": 18.352249145507812,
+              "bottom": 22.859817504882812
+            },
+            "is-structured": false,
+            "children": [
+              "Vector",
+              "Vector1"
+            ]
+          },
+          {
+            "id": "Vector",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            }
+          },
+          {
+            "id": "Vector1",
+            "margin": {
+              "left": 2.0123291015625,
+              "top": 12.0738525390625,
+              "right": 2.0122909545898438,
+              "bottom": 12.073875427246094
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "vector.svg"
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "Logo",
+      "size": {
+        "width": 412.0,
+        "height": 85.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

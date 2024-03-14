@@ -1,0 +1,115 @@
+{
+  "name": "sign_in_messages",
+  "version": 33,
+  "source-key": {
+    "type": "figma",
+    "file": "Yp08lsBtpY0wkb4K1Bz76B",
+    "node": "102:2512",
+    "version": "5336674077",
+    "component-id": "1928d99a9b51ac556fe6399fb3b9b048c1fa2490"
+  },
+  "default": "Sign In Messages",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "text",
+        "id": "Hello!"
+      },
+      {
+        "type": "text",
+        "id": "Sign in"
+      },
+      {
+        "type": "text",
+        "id": "Please fill your informations"
+      }
+    ],
+    "modes": {
+      "Sign In Messages": {
+        "rules": [
+          {
+            "id": "top_level",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "main-axis-align": "start",
+            "children": [
+              "Hello!",
+              "Sign in",
+              "Please fill your informations"
+            ],
+            "item-spacing": 14.0,
+            "clip-content": false
+          },
+          {
+            "id": "Hello!",
+            "font-weight": 700.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 180.0,
+              "saturation": 0.10714285714285714,
+              "value": 0.10980392156862745
+            },
+            "text-content": "Hello!",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": 32.0,
+            "typeface": "DM Sans"
+          },
+          {
+            "id": "Sign in",
+            "font-weight": 500.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 180.0,
+              "saturation": 0.10714285714285714,
+              "value": 0.10980392156862745
+            },
+            "text-content": "Sign in",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": 24.0,
+            "typeface": "DM Sans"
+          },
+          {
+            "id": "Please fill your informations",
+            "color": {
+              "alpha": 1.0,
+              "hue": 180.0,
+              "saturation": 0.10714285714285714,
+              "value": 0.10980392156862745
+            },
+            "text-content": "Please fill your informations",
+            "overflow": "visible",
+            "text-align": "left",
+            "line-height": 1.4285714721679688,
+            "typeface": "DM Sans"
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "Sign In Messages",
+      "size": {
+        "width": 206.0,
+        "height": 104.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

@@ -1,0 +1,141 @@
+{
+  "name": "sign_in_fields",
+  "version": 33,
+  "source-key": {
+    "type": "figma",
+    "file": "Yp08lsBtpY0wkb4K1Bz76B",
+    "node": "102:2538",
+    "version": "5336674077",
+    "component-id": "5c8064efb59661851953c399b2a4e4f74d2ba740"
+  },
+  "default": "Sign In Fields",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "adin_component",
+        "id": "Text field",
+        "key": "text_field"
+      },
+      {
+        "type": "adin_component",
+        "id": "Text field1",
+        "key": "text_field"
+      }
+    ],
+    "modes": {
+      "Sign In Fields": {
+        "rules": [
+          {
+            "id": "top_level",
+            "padding": {
+              "left": 32.0,
+              "top": 16.0,
+              "right": 32.0,
+              "bottom": 16.0
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "children": [
+              "Text field",
+              "Text field1"
+            ],
+            "item-spacing": 34.0,
+            "clip-content": false
+          },
+          {
+            "id": "Text field",
+            "design": "Style=outlined,State=enabled,Text configurations=input-text",
+            "On change": "$on Email changed",
+            "Show supporting text": true,
+            "Label text": "Email",
+            "Leading icon": "search",
+            "Trailing icon": "cancel",
+            "Supporting text": "Please enter your email",
+            "Input text": "$email",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 56.0
+              }
+            }
+          },
+          {
+            "id": "Text field1",
+            "design": "Style=outlined,State=enabled,Text configurations=input-text",
+            "On change": "$on Password change",
+            "Show supporting text": true,
+            "Label text": "Password",
+            "Leading icon": "search",
+            "Trailing icon": "cancel",
+            "Supporting text": "Siz digit Password",
+            "Input text": "$password",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 56.0
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "on Email changed": {
+      "data-type": "value-changed-callback-text",
+      "required": false,
+      "description": ""
+    },
+    "email": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "on Password change": {
+      "data-type": "value-changed-callback-text",
+      "required": false,
+      "description": ""
+    },
+    "password": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "design": "Sign In Fields",
+      "size": {
+        "width": 300.0,
+        "height": 178.0
+      },
+      "parameters": {
+        "email": "account@email.com",
+        "password": "••••••"
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}
